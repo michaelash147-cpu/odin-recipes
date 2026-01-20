@@ -1,0 +1,54 @@
+/* universal selector: */
+
+* {
+    background-color: white smoke; 
+}
+
+/* type selectors: */
+
+body {
+    background-color: white;
+}
+
+div {
+    background-color: grey;
+}
+
+ul {
+    color: royalblue;
+}
+
+/* class selectors: */
+
+.container {
+    border: 5px solid red;
+}
+
+.links {
+    border: 5px dotted blue
+}
+
+/* ID selectors */
+
+#directory {
+    border: 5px solid green;
+}
+
+/* grouping selector */
+
+h1, li {
+    color: navy;
+}
+
+/* chaining selector */
+
+.container.links {
+    background-color: white;
+}
+
+/* descendant combinator */
+
+.ancestor .child {
+    border-radius: 10px;
+}
+
