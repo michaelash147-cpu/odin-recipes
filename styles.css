@@ -1,54 +1,56 @@
-/* universal selector: */
+/* 
 
 * {
     background-color: white smoke; 
 }
 
-/* type selectors: */
+ type selectors: 
 
 body {
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 div {
-    background-color: grey;
+    background-color: white;
 }
 
 ul {
     color: royalblue;
 }
 
-/* class selectors: */
+ class selectors: 
 
 .container {
-    border: 5px solid red;
+    border: 5px solid pink;
 }
 
 .links {
     border: 5px dotted blue
 }
 
-/* ID selectors */
+ ID selectors 
 
 #directory {
     border: 5px solid green;
 }
 
-/* grouping selector */
+ grouping selector 
 
 h1, li {
     color: navy;
 }
 
-/* chaining selector */
+ chaining selector
 
 .container.links {
     background-color: white;
 }
 
-/* descendant combinator */
+ descendant combinator 
 
 .ancestor .child {
     border-radius: 10px;
 }
+
+*/
 
