@@ -1,56 +1,33 @@
-/* 
-
-* {
-    background-color: white smoke; 
-}
-
- type selectors: 
 
 body {
-    background-color: whitesmoke;
+    background-color: #C2C094;
 }
 
-div {
-    background-color: white;
-}
-
-ul {
-    color: royalblue;
-}
-
- class selectors: 
 
 .container {
-    border: 5px solid pink;
+    background-color:#A9A587;
+    padding: 25px;
+    border-radius: 5px;
+    font-family: "Patrick Hand", sans-serif;
+}
+
+
+h1 {
+    background-color: #390040;  
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Patrick Hand", sans-serif;
 }
 
 .links {
-    border: 5px dotted blue
+    background-color: #730071;
+    color: #DC9596;
+    padding: 5px;
 }
 
- ID selectors 
-
-#directory {
-    border: 5px solid green;
+a:visited {
+    color: rgb(168, 148, 148);
 }
 
- grouping selector 
-
-h1, li {
-    color: navy;
-}
-
- chaining selector
-
-.container.links {
-    background-color: white;
-}
-
- descendant combinator 
-
-.ancestor .child {
-    border-radius: 10px;
-}
-
-*/
 
