@@ -1,6 +1,9 @@
 
 body {
     background-color: #C2C094;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -9,6 +12,7 @@ body {
     padding: 25px;
     border-radius: 5px;
     font-family: "Patrick Hand", sans-serif;
+
 }
 
 
